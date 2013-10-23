@@ -15,7 +15,6 @@ features[features_api][] = api:2
 features[field_base][] = field_profile_image
 features[field_instance][] = user-user-field_profile_image
 features[panelizer_defaults][] = user:user:default
-features[variable][] = field_bundle_settings_user__user
 features[variable][] = page_manager_user_view_disabled
 features[variable][] = panelizer_defaults_user_user
 features[variable][] = pathauto_user_pattern
