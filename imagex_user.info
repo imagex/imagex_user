@@ -6,6 +6,7 @@ version = 7.x-1.0
 project = imagex_user
 dependencies[] = ctools
 dependencies[] = features
+dependencies[] = follow
 dependencies[] = image
 dependencies[] = panelizer
 dependencies[] = strongarm
