@@ -1,0 +1,14 @@
+name = Imagex User Follow
+description = Allows users to input social networking links from their user profile
+core = 7.x
+package = ImageX
+version = 7.x-1.0-dev
+project = imagex_user_follow
+dependencies[] = features
+dependencies[] = follow
+dependencies[] = imagex_user
+features[features_api][] = api:2
+features[features_override_items][] = panelizer_defaults.user:user:default
+features[features_overrides][] = panelizer_defaults.user:user:default.display|content|new-2
+features[features_overrides][] = panelizer_defaults.user:user:default.display|panels|center|1
+project path = profiles/imagex_installkit/modules/imagex/modules/imagex_user/modules

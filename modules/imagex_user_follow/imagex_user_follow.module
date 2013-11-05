@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Imagex User Follow feature.
+ */
+
+include_once 'imagex_user_follow.features.inc';
