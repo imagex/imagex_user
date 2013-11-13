@@ -32,7 +32,12 @@ function imagex_user_panelizer_defaults() {
   $display = new panels_display();
   $display->layout = 'flexible';
   $display->layout_settings = array();
-  $display->panel_settings = array();
+  $display->panel_settings = array(
+    'style_settings' => array(
+      'default' => NULL,
+      'center' => NULL,
+    ),
+  );
   $display->cache = array();
   $display->title = '';
   $display->content = array();
@@ -57,7 +62,9 @@ function imagex_user_panelizer_defaults() {
       'context' => 'panelizer',
     );
     $pane->cache = array();
-    $pane->style = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
     $pane->css = array();
     $pane->extras = array();
     $pane->position = 0;
