@@ -23,8 +23,8 @@ function imagex_user_strongarm() {
         'choice' => 0,
       ),
       'default' => array(
-        'status' => 0,
-        'default' => 0,
+        'status' => 1,
+        'default' => 1,
         'choice' => 0,
       ),
     ),
@@ -37,6 +37,8 @@ function imagex_user_strongarm() {
   $strongarm->name = 'pathauto_user_pattern';
   $strongarm->value = 'users/[user:name]';
   $export['pathauto_user_pattern'] = $strongarm;
+
+  features_alter_code('variable', $export);
 
   return $export;
 }

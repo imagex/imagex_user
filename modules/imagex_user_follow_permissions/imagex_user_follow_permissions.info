@@ -6,7 +6,6 @@ version = 7.x-1.0-dev
 project = imagex_user_follow_permissions
 dependencies[] = features
 dependencies[] = follow
-dependencies[] = imagex_user_follow
 features[features_api][] = api:2
 features[user_permission][] = administer follow
 features[user_permission][] = change follow link titles
