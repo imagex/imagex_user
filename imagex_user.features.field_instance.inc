@@ -59,5 +59,7 @@ function imagex_user_field_default_field_instances() {
   // Included for use with string extractors like potx.
   t('Profile image');
 
+  features_alter_code('field_instance', $field_instances);
+
   return $field_instances;
 }

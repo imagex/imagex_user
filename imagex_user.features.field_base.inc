@@ -40,5 +40,7 @@ function imagex_user_field_default_field_bases() {
     'type' => 'image',
   );
 
+  features_alter_code('field_base', $field_bases);
+
   return $field_bases;
 }
