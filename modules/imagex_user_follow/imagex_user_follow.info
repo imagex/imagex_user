@@ -7,6 +7,4 @@ project = imagex_user_follow
 dependencies[] = features
 dependencies[] = follow
 dependencies[] = imagex_user
-dependencies[] = imagex_user_follow_permissions
 features[features_api][] = api:2
-project path = profiles/imagex_installkit/modules/imagex/modules/imagex_user/modules
